@@ -1,0 +1,92 @@
+.rowo{
+--bs-gutter-x:1.5rem;
+--bs-gutter-y:0;
+display:flex;
+flex-wrap:wrap;
+margin-top:calc(-1 * var(--bs-gutter-y));
+margin-right:calc(-.5 * var(--bs-gutter-x));
+margin-left:calc(-.5 * var(--bs-gutter-x))}
+
+.rowo>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.btn-outline-infoo {
+    color: #0dcaf0;
+    border-color: #0dcaf0;
+}
+.card-bodyo {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.cardo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.col-mdo{
+    position: relative;
+}
+
+
+
+
+
+.btno {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    
+    text-align: center;
+    
+    vertical-align: middle;
+    
+    
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    
+   
+
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+a, .btno {
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    text-decoration-thickness: initial !important;
+    text-decoration-style: initial !important;
+    text-decoration-color: initial !important;
+    outline: none !important;
+    outline-color: initial !important;
+    outline-style: none !important;
+    outline-width: initial !important;
+    
+    
+}
+.btno:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-smo {
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    border-radius: 0.2rem;
+}
+
+.btn-blocko {
+ 
+    width: 100%;
+}
